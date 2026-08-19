@@ -89,49 +89,6 @@ export default function Page() {
     <>
       <Header />
 
-      {/* =====================================================
-          AXIS STUDIO DEMO NOTICE
-      ====================================================== */}
-      <div className="border-b border-[#eadfca] bg-[#fbf8f2]">
-        <div className="mx-auto max-w-7xl px-4 py-2.5 sm:px-6">
-          {/* MOBILE */}
-          <div className="flex items-center justify-between gap-3 sm:hidden">
-            <span className="shrink-0 rounded-full bg-[#071936] px-2.5 py-1 text-[7px] font-bold uppercase tracking-[0.14em] text-white">
-              Axis Studio Demo
-            </span>
-
-            <button
-              type="button"
-              onClick={() => setTemplateModalOpen(true)}
-              className="inline-flex min-h-8 items-center justify-center rounded-lg border border-[#c89b3c]/25 bg-white px-3 text-[8px] font-bold text-[#9b7226] shadow-sm transition hover:bg-[#fbf8f2]"
-            >
-              Start With This Design →
-            </button>
-          </div>
-
-          {/* DESKTOP */}
-          <div className="hidden items-center justify-between gap-5 sm:flex">
-            <div className="flex min-w-0 items-center gap-3">
-              <span className="shrink-0 rounded-full bg-[#071936] px-3 py-1 text-[9px] font-bold uppercase tracking-[0.14em] text-white">
-                Axis Studio Demo
-              </span>
-
-              <p className="text-xs font-medium text-slate-500">
-                Sample real estate website content for design preview only.
-              </p>
-            </div>
-
-            <button
-              type="button"
-              onClick={() => setTemplateModalOpen(true)}
-              className="shrink-0 rounded-lg border border-[#c89b3c]/25 bg-white px-4 py-2 text-xs font-semibold text-[#9b7226] transition hover:bg-[#fbf8f2]"
-            >
-              Start With This Design →
-            </button>
-          </div>
-        </div>
-      </div>
-
       <main className="overflow-x-hidden bg-white">
         {/* =====================================================
             HERO
